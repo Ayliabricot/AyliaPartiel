@@ -59,7 +59,7 @@ main{
         display : flex;
         background-color: #E4DCE2;
         flex-direction: column;
-        
+
         h1{
             font-family: "Open Sans", sans-serif;
             font-optical-sizing: auto;
@@ -105,7 +105,39 @@ main{
             }
         }
     }
+    
+    #CTA{
+        width : 100%;
+        margin : 0;
+        background : url(.././images/holiday.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
 
-
-
+        #bouton{
+            margin : auto;
+            padding-top : 3%;
+            padding-bottom : 3%;
+            p{
+                background-color: #6A3460;
+                border-radius: 30px;
+                border-color: white;
+                border-style: solid;
+                text-align: center;
+                color: white;
+                font-size : 30px;
+                margin: auto;
+                font-family: "Open Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                font-variation-settings:
+                "wdth" 100;
+                font-size: 24px;
+                width : 20%;
+                padding-top : 2%;
+                padding-bottom : 2%;
+            }
+    }
 }
