@@ -146,9 +146,9 @@ main{
                 width : 20%;
                 padding-top : 2%;
                 padding-bottom : 2%;
-                transition: all 500ms linear 500ms;
+                transition: all 1s linear 1s;
                 &:hover{
-                    transform :scale(1.15);
+                    transform :scale(1.50);
                     background-color: white;
                     border-color: #6A3460;
                     color: #6A3460;
