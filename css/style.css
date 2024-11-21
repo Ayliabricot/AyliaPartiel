@@ -6,6 +6,7 @@ body{
 header{
     width : 100%;
     display: flex;
+    margin : 0;
     background-color: #6a3460;
     #container{
         width : 100%;
@@ -23,4 +24,35 @@ header{
             font-size: 2em;
         }
     }
+}
+
+main{
+    width : 100%;
+    margin : 0;
+    
+    #hero{
+        background-image: url(.././images/santorini.jpg);
+        background-size: cover;
+        width : 100%;
+        margin : 0;
+        font-family: "Oleo Script", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        position : relative;
+        padding-top : 10%;
+        padding-bottom : 45%;
+        padding-right : 0;
+        p{
+            padding : 2%;
+            color : white;
+            font-size: 3em;
+            position : absolute;
+            margin:0;
+            background-color: #6A3460;
+            left : 10%;
+        }
+    }
+
+
+
 }
