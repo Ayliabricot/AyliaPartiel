@@ -141,3 +141,21 @@ main{
             }
     }
 }
+
+footer{
+    margin:0;
+    background-color: #6A3460;
+    width : 100%;
+    padding:0;
+    #container{
+        padding : 0;
+        display:flex;
+        background-color: #6A3460;
+        width : 100%;
+        margin:auto;
+        #logo{
+            margin:auto;
+            width : 30%;
+        }
+    }
+}
