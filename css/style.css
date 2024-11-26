@@ -145,7 +145,7 @@ main{
                 width : 20%;
                 padding-top : 2%;
                 padding-bottom : 2%;
-                transition: all 1ms linear 1s;
+                transition: all 1s linear;
                 &:hover{
                     transform :scale(1.50);
                     background-color: white;
